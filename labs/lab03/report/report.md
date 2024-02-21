@@ -170,16 +170,16 @@ using Plots;
 using DifferentialEquations;
 
 function one(du, u, p, t)
-    du[1] = - 0.36*u[1] - 0.48*u[2] + sin(t+1) + 1
-    du[2] = - 0.49*u[1] - 0.37*u[2] + cos(t+2) + 1.1
+    du[1] = - 0.57*u[1] - 0.91*u[2] + sin(5*t) + 1
+    du[2] = - 0.31*u[1] - 0.2*u[2] + cos(3*t) + 2
 end
 
 function two(du, u, p, t)
-    du[1] = - 0.11*u[1] - 0.68*u[2] + sin(5*t) + 1.1
-    du[2] = (- 0.6*u[1] - 0.15)*u[2] + cos(5*t) + 1
+    du[1] = - 0.39*u[1] - 0.86*u[2] + sin(2*t) + 1
+    du[2] = (- 0.39*u[1] - 0.21)*u[2] + cos(2*t) + 1
 end
 
-const people = Float64[52000, 49000]
+const people = Float64[44150, 19000]
 const prom1 = [0.0, 3.0]
 const prom2 = [0.0, 0.0007]
 
@@ -235,14 +235,14 @@ savefig(plt2, "lab03_2.png")
 model Lab03_01
 Real x;
 Real y;
-Real a = 0.36;
-Real b = 0.48;
-Real c = 0.49;
-Real d = 0.37;
+Real a = 0.57;
+Real b = 0.91;
+Real c = 0.31;
+Real d = 0.2;
 Real t = time;
 initial equation
-x = 52000;
-y = 49000;
+x = 44150;
+y = 19000;
 equation
 der(x) = -a*x - b*y + sin(t+1)+1;
 der(y) = -c*x*y - d*y + cos(t+2)+1.1;
@@ -253,14 +253,14 @@ end Lab03_01;
 model Lab03_02
 Real x;
 Real y;
-Real a = 0.11;
-Real b = 0.68;
-Real c = 0.6;
-Real d = 0.15;
+Real a = 0.39;
+Real b = 0.86;
+Real c = 0.39;
+Real d = 0.21;
 Real t = time;
 initial equation
-x = 52000;
-y = 49000;
+x = 41150;
+y = 19000;
 equation
 der(x) = -a*x - b*y + sin(5*t)+1.1;
 der(y) = -c*x - d*y + cos(5*t)+1;
