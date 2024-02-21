@@ -215,19 +215,19 @@ savefig(plt2, "lab03_2.png")
 
 На рис. @fig:002 и @fig:003 изображены итоговые графики для обоих случаев.
 
-!["Полученный график Julia. Первый случай"](image/2.png){#fig:002}
+!["Полученный график Julia. Первый случай"](image/2.PNG){#fig:002}
 
-!["Полученный график Julia. Второй случай"](image/3.png){#fig:003}
+!["Полученный график Julia. Второй случай"](image/3.PNG){#fig:003}
 
 ## OpenModelica
 
 Установим OpenModelica:
 
-!["Установщик OpenModelica"](image/4.png){#fig:004}
+!["Установщик OpenModelica"](image/4.PNG){#fig:004}
 
 Откроем OpenModelica:
 
-!["Рабочая область OpenModelica"](image/5.png){#fig:005}
+!["Рабочая область OpenModelica"](image/5.PNG){#fig:005}
 
 ### Программный код решения на OpenModelica [2]
 
