@@ -105,7 +105,7 @@ $$\frac{dn}{dt} = (\alpha _1(t) + \alpha _2(t)n(t))(N-n(t))$$
 
 # Решение с помощью программ
 
-## Результаты работы кода на Julia и Open Modelica для первого случая $\frac{dn}{dt} = (0.66 + 0.000061n(t))(N-n(t))$:
+## Результаты работы кода на Julia и Open Modelica для первого случая $\frac{dn}{dt} = (0.805 + 0.000023n(t))(N-n(t))$:
 
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
@@ -120,7 +120,7 @@ $$\frac{dn}{dt} = (\alpha _1(t) + \alpha _2(t)n(t))(N-n(t))$$
 :::
 ::::::::::::::
 
-## Результаты работы кода на Julia и Open Modelica для случая $\frac{dn}{dt} = (0.000056 + 0.66n(t))(N-n(t))$:
+## Результаты работы кода на Julia и Open Modelica для случая $\frac{dn}{dt} = (0.000085 + 0.63n(t))(N-n(t))$:
 
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
@@ -135,7 +135,7 @@ $$\frac{dn}{dt} = (\alpha _1(t) + \alpha _2(t)n(t))(N-n(t))$$
 :::
 ::::::::::::::
 
-## Результаты работы кода на Julia и Open Modelica для случая $\frac{dn}{dt} = (0.66\sin{t} + 0.66\sin{(6t)}  n(t))(N-n(t))$:
+## Результаты работы кода на Julia и Open Modelica для случая $\frac{dn}{dt} = (0.8t + 0.3*t*n(t))(N-n(t))$:
 
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
