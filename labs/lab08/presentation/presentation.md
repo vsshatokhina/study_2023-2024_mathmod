@@ -187,7 +187,7 @@ $$ \widetilde{p}_1=8.5 \: \widetilde{p}_2=10 $$
 ::: 
 ::: {.column width="50%"}
 
-!["График, построенный на языке Open Modelica"](image/4.Ppng){#fig:004}
+!["График, построенный на языке Open Modelica"](image/4.png){#fig:004}
 
 :::
 ::::::::::::::
