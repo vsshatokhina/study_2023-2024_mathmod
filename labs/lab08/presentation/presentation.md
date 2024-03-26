@@ -167,12 +167,12 @@ $$ \widetilde{p}_1=8.5 \: \widetilde{p}_2=10 $$
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
 
-!["График, построенный на языке Julia"](image/1.PNG){#fig:001}
+!["График, построенный на языке Julia"](image/1.png){#fig:001}
 
 ::: 
 ::: {.column width="50%"}
 
-!["График, построенный на языке Open Modelica"](image/3.PNG){#fig:003}
+!["График, построенный на языке Open Modelica"](image/3.png){#fig:003}
 
 :::
 ::::::::::::::
@@ -182,12 +182,12 @@ $$ \widetilde{p}_1=8.5 \: \widetilde{p}_2=10 $$
 :::::::::::::: {.columns align=center}
 ::: {.column width="50%"}
 
-!["График, построенный на языке Julia"](image/2.PNG){#fig:002}
+!["График, построенный на языке Julia"](image/2.png){#fig:002}
 
 ::: 
 ::: {.column width="50%"}
 
-!["График, построенный на языке Open Modelica"](image/4.PNG){#fig:004}
+!["График, построенный на языке Open Modelica"](image/4.Ppng){#fig:004}
 
 :::
 ::::::::::::::
